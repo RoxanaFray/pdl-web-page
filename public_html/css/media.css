@@ -1,0 +1,83 @@
+@media screen and (min-width:768px) and (max-height:700px){
+    .section_3{
+        
+        padding: 65px 0 80px;
+    }
+    
+    .section_top {
+    background: #7692b1;
+    padding: 50px 0 70px 0;
+}
+.section_5 .adres{
+    top:90px;
+}
+}
+
+@media screen and (max-width:1600px){
+    .title_logo{
+        width:45%;
+    }
+    
+.nav_block{
+    width:90%;
+    text-align:right;
+}
+.item_menu {
+    color: #000;
+    font: 15px MinionPro;
+    display: inline-block;
+    margin: 0 15px;
+}
+}
+@media screen and (max-width:1024px){
+    .nav_block{
+        display: none;
+    }
+    .header{
+        padding: 0;
+        line-height: 80px;
+    }
+    .title_logo{
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    .logo img{
+        width: 60px;
+    }
+    .logo_elements{
+        display: flex;
+        align-items: center;
+    }
+    .section_top img{
+        max-width: 50% !important;
+    }
+    .section_top{
+        text-align: center;
+        padding: 20px 30px;
+    }
+    .main_title{
+        font-size: 30px;
+    }
+    .subtitle_main{
+        padding: 0;
+        font-size: 16px;
+    }
+    .subtitle_main:before{
+        content:'';
+        display: none;
+    }
+}
+@media screen and (max-width:768px){
+    .menu_slide{
+        line-height:80px;
+        padding:45px 0;
+        
+    }
+    .menu_slide a{
+        display:block;
+            line-height: 32px;
+    }
+    .btn_close_menu{
+        top:40px;
+    }
+}
