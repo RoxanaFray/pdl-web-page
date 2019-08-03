@@ -69,10 +69,6 @@
             }
 }
 
-<div>
-</div>
-
-
 </script> 
   <!-- Гугл-Аналитика -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
